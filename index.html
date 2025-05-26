@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--Marian Gomez Espinoza-->
+<!--2/10/2025-->
+<!--Introduccion a HTML5 y CSS3-->
+<!--Grupo B-->
+
+<link rel="stylesheet" href="style.css">
+<head>
+    <title>Bitácora</title> <!-- Este es el título que aparecerá en la pestaña del navegador -->
+    <link href="/img/CO.png" rel="icon">
+</head>
+
+<body>
+    <header>
+        <h1>Bitácora de Marian Gómez</h1>
+    </header>
+
+    <!-- Menú -->
+    <div class="menu">
+        <nav>
+            <a href="#Encabezados">Encabezados</a>
+            <a href="#Info">Info</a>
+            <a href="#imagenes">Imágenes</a>
+            <a href="#enlaces">Enlaces</a>
+            <a href="#listas">Listas</a>
+            <a href="#video">Video</a>
+            <a href="pagmoda.html">Pagdemodas</a>
+            <a href="para.html">Paralax</a>
+        </nav>
+    </div>
+
+    <!-- Encabezados -->
+    <section id="Encabezados">
+        <h2 class="Titulo">Esto es un h1, un titulo grande</h2>
+        <h3>Este es un (h2), subtítulo más pequeño que nuestro título</h3>
+        <h3>Este es un (h3), subtítulo más pequeño que h2</h3>
+        <h4>Este es un (h4), subtítulo más pequeño que h3</h4>
+        <h5>Este es un (h5), subtítulo más pequeño que h4</h5>
+        <h6>Este es un (h6), subtítulo más pequeño que h5</h6>
+        <p>Esto es un párrafo, se usa la etiqueta (p), aquí podemos escribir textos largos.</p>
+    </section>
+
+    <!-- Info -->
+    <section id="Info">
+        <h2>Conceptos</h2>
+        <h3>Style</h3>
+        <p>Style se usa para darle un diseño a nuestra página.</p>
+
+        <h3>DOM</h3>
+        <p>El DOM es la estructura que representa nuestro código.</p>
+        <h4>Ejemplo</h4>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw9ldVjUlEQmmS0fIM-kmMhEeCl7dBmEoL4w&s">
+
+        <h3> Diagrama en clase</h3>
+        <img src="../img/Image.jpg">
+
+        <h3>Em y px</h3>
+        <p>Px es una unidad absoluta, se usa para tener tamaños exactos;mientras que em es una unidad relativa al tamaño de la fuente del elemento padre.</p>
+
+        <h3>Insertar un font</h3>
+        <p>Para insertar un font de google fonts, tienes que hacer click en get font, get embed code, copiar y pegar import url. Por ultimo copiar  y pegar el nombre de la fuente.</p>
+
+        <h3>Divs</h3>
+        <p>Es un contenedor, sirve para agrupar contenido, sin dar un significado especial al contenido.</p>
+        <h4>Ejemplo de div</h4>
+        <div style="background: linear-gradient(74deg,#e200ff 0%, #00ffc9 80%); color: #fff; padding: 10px;
+        border: 2px;" ></div>
+
+        <h3>Nav</h3>
+        <p>Se usa para menus de navegacion, contiene enlaces de navegacion.</p>
+
+        <h3>Class</h3>
+        <p>Se usa para definir estilos iguales para varios elementos al mismo tiempo.</p>
+
+        <h3>Sections</h3>
+        <p> Se usa para dividir una pagina web en secciones, tiene un uso mas semantico.</p>
+
+        <h3>Opciones de menu</h3>
+        <p>Para que el menu continue mostrandose en la pagina es necesario agregar un positioin sticky y overflow hidden.</p>
+
+
+        <!--TABLA-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Ciudad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana</td>
+                    <td>30</td>
+                    <td>Buenos Aires</td>
+                </tr>
+                <tr>
+                    <td>Pedro</td>
+                    <td>24</td>
+                    <td>Lima</td>
+                </tr>
+            </tbody>
+        </table>
+ 
+        <!--FORMULARIO-->
+        <form action="/actionPage.php"><!--Ejemplo php-->
+            <label>Nombres:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre...">
+            <label>Pais:</label>
+            <select id="pais" name="pais">
+                <option value="australia">Australia</option>
+                <option value="mexico">Mexico</option>
+                <option value="usa">Estados Unidos</option>
+ 
+            </select>
+ 
+        </form>
+ 
+        <div class="anim">
+            <h1>ANIMACIÓN</h1>
+        </div>
+ 
+        <!--PRESENTACIÓN-->
+        <div id="slideshow">
+  <div class="slide-wrapper">
+    <div class="slide">
+      <img src="https://pm1.aminoapps.com/6395/3569576e0c34eefa3fdbb18fd7f8785c9f8feb2a_hq.jpg">
+    </div>
+    <div class="slide">
+      <img src="https://upload.wikimedia.org/wikipedia/en/7/70/Tony_Stonem.jpg">
+    </div>
+    <div class="slide">
+      <img src="https://i.pinimg.com/736x/9f/61/04/9f61040c7304cc55e7915448fae9791f.jpg">
+    </div>
+    <div class="slide">
+      <img src="https://i.pinimg.com/564x/2c/23/c2/2c23c2ff551c04496b0c69874913f71b.jpg">
+    </div>
+  </div>
+</div>
+
+ 
+        <!--SPAN-->
+            <h4>Ejemplo de SPAN</h4>
+            <p>
+              ESTE ES UN EJEMPLO DE
+              <span style="color: rgb(233, 68, 255);"> UN SPANN</span>
+            </p>
+          </div>
+ 
+        <p titulo="Selector de atributos">Hoy aprendi lo que es un selector de atributos</p>
+    
+    </section>
+
+    <!-- Imágenes -->
+    <section id="imagenes">
+        <h2>Un ejemplo de una imagen se vería así:</h2>
+        <img src="https://i1.sndcdn.com/artworks-zezTWt9O1ZnW7fYP-ay9JyA-t500x500.jpg" alt="Imagen de ejemplo, Sid y Cassie de Skins">
+        <p>La etiqueta (img) se usa para mostrar una imagen, mientras que el atributo src define nuestra URL; alt es un texto alternativo, el cual nos da una descripción de lo que es la imagen en caso de que no sea visible.</p>
+    </section>
+
+    <!-- Enlaces -->
+    <section id="enlaces">
+        <h2>Ejemplo de un enlace</h2>
+        <a href="https://skins.fandom.com/es/wiki/Categor%C3%ADa:Personajes_de_la_primera_generaci%C3%B3n" target="_blank">Personajes de Skins</a>
+        <p>La etiqueta (a) se usa para enlaces, y el atributo target="_blank" se usa para abrir nuestro enlace en otra pestaña.</p>
+    </section>
+
+    <!-- Listas -->
+    <section id="listas">
+        <h2>Lista ordenada</h2>
+        <ol>
+            <li>Elemento</li>
+            <li>Elemento</li>
+            <li>Elemento</li>
+        </ol>
+        <p>Las listas (ol) crean listas ordenadas, en automático las ordenarán numéricamente.</p>
+
+        <h2>Lista no ordenada</h2>
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+        <p>Las listas (ul) crean listas no ordenadas.</p>
+    </section>
+
+    <!-- Video -->
+    <section id="video">
+        <h2>Video incrustado</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hu6qnKjUk34?si=XbqAWVbGz7_1udXl" title="YouTube video player" allowfullscreen></iframe>
+        <p>Iframe nos permite insertar otra web dentro de nuestra página, no solo videos, pueden ser mapas, documentos o otras páginas web.</p>
+    </section>
+
+    <div class="r"></div>
+        <div class="t"></div>
+        <div class="h">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+                <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849m.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1s-.458.158-.678.599"/>
+              </svg>
+        </div>
+         
+
+
+    <!-- Footer -->
+    <footer>
+        <h2>Marian Gómez Espinoza - Bitácora</h2>
+        <h2>Introducción a HTML5 y CSS3</h2>
+        
+    </footer>
+</body>
+</html>
