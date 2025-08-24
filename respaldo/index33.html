@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitácora</title>
+  <style>
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #27151c;
+      color: #eee;
+      background-image: url("https://media.tenor.com/eO5u1fpwJxYAAAAM/simon-henriksson-cry-of-fear.gif");
+      background-size: contain;   
+      background-repeat: no-repeat; 
+      background-attachment: fixed; 
+      background-position: center;  
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      background-position: center;
+      color: white;
+      padding: 300px 300px;
+    }
+
+    .headert h1 {
+      font-size: 100px;
+      margin: 0;
+    }
+
+    .headert p {
+      font-size: 22px;
+      margin: 5px 0 0;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: none;
+      padding: 40px;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .contenedor {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      display: flex; 
+      gap: 40px;
+      justify-content: center;
+      flex-wrap: wrap;  
+    }
+
+    .caj {
+      background-color: rgba(0,0,0,0.5); 
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 4px 12px rgba(169, 151, 255, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+      width: 400px; 
+      text-align: center;
+    }
+
+    .caj:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(255, 151, 151, 0.2);
+    }
+
+    .caj h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+      color: #ffffff;
+    }
+
+    .caj p {
+      text-align: justify;
+      line-height: 1.6;
+      color: #eee;
+    }
+
+    .caj img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+    
+    .contenedor a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="headert">
+      <h1>Bitácora</h1>
+      <p>Marian Gomez</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#html">HTML y CSS</a>
+  </nav>
+
+  <div class="contenedor">
+    <a href="hycss.html">
+      <div class="caj" id="html">
+        <img src="https://static.wixstatic.com/media/cae29b_583a314283924629ab7ede58d33ba4e2~mv2.jpg/v1/fill/w_1000,h_563,al_c,q_85,usm_0.66_1.00_0.01/cae29b_583a314283924629ab7ede58d33ba4e2~mv2.jpg">
+        <h2>HTML y CSS</h2>
+        <p>Conceptos que aprendimos el semestre anterior</p>
+      </div>
+    </a>
+
+    <a href="hycss.html">
+      <div class="caj" id="html2">
+        <img src="https://cdn-wcsm.alura.com.br/2025/04/arvore-dom.png">
+        <h2>HTML y CSS</h2>
+        <p>Conceptos que aprendimos el semestre anterior</p>
+      </div>
+    </a>
+  </div>
+
+</body>
+</html>
